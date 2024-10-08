@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivy and Thyme Restaurant</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .navbar {
+            background-color: #556b2f;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .navbar a:hover {
+            background-color: #6b8e23;
+        }
+        .header {
+            background-color: #556b2f;
+            color: #fff;
+            text-align: center;
+            padding: 40px 0;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .content {
+            text-align: center;
+            margin: 20px auto;
+            max-width: 900px;
+        }
+        .content p {
+            font-size: 1.2em;
+            line-height: 1.6em;
+            margin-bottom: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            padding: 0 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .footer {
+            background-color: #556b2f;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="#menu">Menu</a>
+        <a href="#reservation">Reservation</a>
+        <a href="#help">Help</a>
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Ivy and Thyme Restaurant</h1>
+    </div>
+
+    <!-- Content Section -->
+    <div class="content">
+        <p>Welcome to Ivy and Thyme, where nature meets gourmet dining in a cozy, rustic environment. Our goal is to provide a wholesome dining experience that blends fresh ingredients with relaxing nature-inspired settings.</p>
+
+        <!-- Gallery Section -->
+        <div class="gallery">
+            <img src="salad.jpg" alt="Salad">
+            <img src="nature_restaurant_1.jpg" alt="Cozy Restaurant">
+            <img src="nature_restaurant_2.jpg" alt="Greenery in Restaurant">
+            <img src="herbs.jpg" alt="Herbs and Leaves">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 Ivy and Thyme Restaurant</p>
+    </div>
+
+</body>
+</html>
+
